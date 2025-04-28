@@ -1,0 +1,9 @@
+[package]
+name = "anon_chat_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+teloxide = { version = "0.12", features = ["macros"] }
+tokio = { version = "1", features = ["full"] }
+rand = "0.8"
